@@ -1,10 +1,10 @@
 import './App.css';
-import SupportTickets from './Components/SupportTickets';
+import TicketsMobileView from './Components/SupportTicket/ticketsmobileview/TicketsMobileView';
 
 function App() {
   return (
     <div className="App">
-      <SupportTickets />
+      <TicketsMobileView />
     </div>
   );
 }

@@ -1,0 +1,51 @@
+.ticketsHomewrapper {
+  width: 10ex;
+  height: 1e5vh;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+}
+.TicketsHome {
+  color: Dmeecc00;
+  margin-bottom: 6rem;
+}
+.TicketsHome .Subileading {
+  border-bottom: 4px solid;
+  padding: 13px e 20px ®;
+  font-size: 18px;
+  letter-spacing: e;
+  line-height: 16px;
+  margin-bottom: 7px;
+  color: Os000000;
+  font-family: Verizon-NG-eDS;
+}
+.TicketsHome .Tabteader {
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: 16px;
+  padding: 10px;
+}
+.Ticketslome .tab-content {
+  padding: 18px 10px;
+}
+.TicketsHome .nav-Item.nav-1ink.active {
+  color: Os281E;
+  border: nones;
+  border-bottom: Apx solid;
+}
+.Ticketstome .Heading {
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 36px;
+  padding-top: 33px;
+  color: Ooe0000;
+  font-weight: bold;
+  letter-spacing: 0;
+  font-family: Verizon -HG-eD5;
+  margin: 1rem 1.5rem 1.5Srem 0rem;
+  width: auto Iimportant;
+  height: auto 1important;
+  font-size: 30px 1inportant;
+  line-height: 38px 1important;
+}

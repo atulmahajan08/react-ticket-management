@@ -1,7 +1,8 @@
 import React from 'react';
+import CardComponent from './CardComponent/CardComponent';
 // import(Tabs, Tab} from "react- bootstrap"s
 // import/TicketsHomeNobile . css ';
-// port cardcomponent froncardcomponent/CardComponent ';
+
 // importupdatevzwAnalytics } from/./Global sResources'
 // importTextlinkCaret fron evds /but tons" ;
 
@@ -18,14 +19,14 @@ export const TicketsMobileView = ({ openRequests, closeRequests, ctaclicked }) =
   let renderOpenReq = null;
   if (openRequests) {
     renderOpenReq = openRequests.map(
-      // (row) => <Cardcomponent data={row} type="opened" ctaclicked-={ctaclicked} />
-    )
+      (row) => <CardComponent data={row} type="opened" ctaclicked-={ctaclicked} />
+      )
   }
 
   let rendercloseReq = null;
   if (closeRequests) {
     rendercloseReq = closeRequests.map(
-      // (row) => <CardComponent data={row} type="closed" ctaclicked={ctaclicked} />
+      (row) => <CardComponent data={row} type="closed" ctaclicked={ctaclicked} />
     )
   }
 

@@ -1,4 +1,5 @@
 import React from 'react'
+import TicketsMobileView from './ticketsmobileview/TicketsMobileView';
 
 // import container, Row, Col, Button from "react-bootstrap";
 // 1e trom react-device -detect
@@ -293,7 +294,25 @@ export default class SupportTickets extends React.Component {
     utility. loadutagseript () ;
     document.body.classList.add("support Requests ");
     if(!this.state.isFetching && !this.state. error) {
-
+      let openNewRequest = "";
+      if(window.location.hostname.indexOf("das") > -1) {
+        openNewRequest = "http://" + window.location.hostname + "ui/hub"
+      } else {
+        openNewRequest = "http://" + window.location.hostname + "ui/hub"
+      }
+      
+      const { body = {} } = pageData;
+      const { managedResolutionDetails = {} } = body;
+      const { closedCases = [], openCases = []} = managedResolutionDetails;
+      const openCasesData = openCases.length > 0 && openCases;
+      const closeCasesData = closedCases.length > 0 && openCases;
+      
+      return (
+        <div>
+          {!openCasesData.length ? <div>No Records to display</div> : ""}
+          <TicketsMobileView openRequests={pageData.body.managedResolutionDetails.openCases} closeRequests={pageData.body.managedResolutionDetails.closedCases} ctaClicked ={(caseId)=> this.handleView(caseId)} />
+        </div>
+      )
     }
   }
   

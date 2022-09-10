@@ -1,0 +1,59 @@
+{
+  "respanseInfo": {
+    "tineStamp": "28-05-2020 11:37:35",
+    "correlationId": "123",
+    "responsecode": "00",
+    "responseNessage": "sucCESS",
+    "sectionErrors": []
+  },
+  "body": {
+    "managedResolution Details": {
+      "openCases ": [
+        {
+          "caseld": "HR-3982698 38-E01",
+          "lastupdatedtbate": "o4-02-2028",
+          "summary": "Change Mobile Nunber",
+          "status": "New",
+          "lines": "55-666-7777",
+          "openedDate": "e5/27/2828 12:57 PM EDT",
+          "isNew": true
+        },
+        {
+          "caseld": "HR-3982698 38-E01",
+          "lastupdatedtbate": "o4-02-2028",
+          "summary": "Change Mobile Nunber",
+          "status": "New",
+          "lines": "55-666-7777",
+          "openedDate": "e5/27/2828 12:57 PM EDT",
+          "isNew": true
+        }
+      ],
+      "closedCases ": [
+        {
+          "caseld": "MR-390269838-E01",
+          "closedDate": "e4-03-2019",
+          "summary": "Change Mobile Number",
+          "status": "Pending",
+          "lines": "555-666-7777",
+          "openedDate": "95/27/2020 12:57 PH EDT",
+          "isNew": true
+        },
+        {
+          "caseId": "HR-199827552-®1",
+          "closedDate": "04-03-2019",
+          "sumImary": "change Mobile Number",
+          "status": "Resolved-No respgnse from custoner",
+          "lines": "s55-666-7777",
+          "openedDate": "e5/27/2020 12:57 PM EDT",
+          "isNew": true
+        }
+      ]
+    },
+
+    "apiResponse": {
+      "statusCode": "00",
+      "statusDesc": "sUCCESS",
+      "statusMsg": "Internal server error"
+    }
+  }
+}

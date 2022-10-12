@@ -313,7 +313,10 @@ export default class SupportTickets extends React.Component {
           <TicketsMobileView openRequests={pageData.body.managedResolutionDetails.openCases} closeRequests={pageData.body.managedResolutionDetails.closedCases} ctaClicked ={(caseId)=> this.handleView(caseId)} />
         </div>
       )
+      // else {
+      //   const loadingImg = <Loader acive fullscreen={true} />
+      //   return <div>{loadingImg}</div>;
+      // }
     }
   }
-  
 }

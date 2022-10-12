@@ -122,4 +122,4 @@ export const TicketsMobileView = ({ openRequests, closeRequests, ctaclicked }) =
   )
 }
 
-export default TicketsMobileView
+export default TicketsMobileView;
